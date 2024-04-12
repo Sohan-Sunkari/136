@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Finder</title>
+    <script src="main.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+
+
+
+<body>
+  <div class="heading-container">
+    <h1>Ai Object Finder</h1>
+    <h2>The input name which you will give should match the names present in CoCo model, only then will it detect anything.</h2>
+  </div>
+
+  <br>
+  <label for="text-input">Object Name:</label>
+  <br>
+  <input class="input" id="text-input" type="text" placeholder="Type Object Name here"/>
+  
+  <br>
+  <br>
+
+  <style>
+  .green-button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+  }
+</style>
+</head>
+<body>
+
+<button class="green-button">Start</button>
+
+<br>
+<br>
+<br>
+
+<style>
+  .button {
+    border: none;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+  }
+
+  .orange-button {
+    background-color: #FFA500; /* Orange background */
+  }
+
+  .red-button {
+    background-color: #FF0000; /* Red background */
+  }
+</style>
+</head>
+<body>
+
+<button class="button orange-button"></button>
+<button class="button red-button"></button>
+
+
+</body>
+</html>

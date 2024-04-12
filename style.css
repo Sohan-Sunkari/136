@@ -1,0 +1,66 @@
+body {
+    background: rgb(234,255,0);
+    background: linear-gradient(90deg, rgba(234,255,0,1) 0%, rgba(237,35,11,1) 100%, rgba(255,0,0,1) 100%);
+    text-align:center;
+}
+
+
+/* Container styles */
+.heading-container {
+    background-color: #0782cf; /* Set your desired background color */
+    padding: 5px; /* Add some padding for spacing */
+}
+
+/* Heading styles */
+h1, h2 {
+    font-family: Arial, sans-serif; /* Set your desired font family */
+    line-height: 1.5; /* Adjust line height as needed */
+    margin: 0; /* Remove default margins */
+}
+
+/* Customize h1 */
+h1 {
+    color: #ffffff; /* Set font color for h1 */
+    font-size: 34px; /* Set font size for h1 */
+}
+
+/* Customize h2 */
+h2 {
+    color: #000000; /* Set font color for h2 */
+    font-size: 18px; /* Set font size for h2 */
+}
+
+
+.input {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .input:hover {
+    border-color: #007bff;
+  }
+  
+  /* Focus state */
+  .input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Disabled state */
+  .input:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+  
+  /* Readonly state */
+  .input[readonly] {
+    background-color: #f9f9f9;
+    cursor: default;
+  }
